@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #24ff15;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.product-info {
+    display: flex;
+    margin: 20px 0;
+}
+
+.product-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product-details {
+    flex: 2;
+}
+
+.product-details h2 {
+    color: #333;
+}
+
+.sold-out {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description, .notification, .related-products, .reviews {
+    margin-top: 30px;
+}
+
+.email-signup {
+    margin-top: 15px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
